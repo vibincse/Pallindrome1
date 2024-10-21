@@ -1,0 +1,3 @@
+"""
+Tests the palindrome module
+"""

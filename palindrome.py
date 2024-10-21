@@ -1,0 +1,3 @@
+"""
+Validates strings as palindromes.
+"""
