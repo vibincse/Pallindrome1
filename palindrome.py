@@ -6,5 +6,7 @@ def is_palindrome(value):
         raise ValueError("Input must be a string")
     if value == "":
         return False
+    if len(value) == 1:
+        return True
 
 
