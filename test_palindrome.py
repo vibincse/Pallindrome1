@@ -7,3 +7,6 @@ from palindrome import is_palindrome
 def test_raises_value_error_on_non_string_input():
     with pytest.raises(ValueError):
         is_palindrome(123)
+
+def test_returns_false_on_empty_string():
+    assert is_palindrome("") is False
